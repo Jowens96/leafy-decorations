@@ -32,18 +32,24 @@ h1 {
 }
 
 .nav a:hover {
-
+  background-color: #fff;
+  color: #467366;
+  background-image: url("../images/leaf-icon.svg");
+  background-position: .75em;
+  background-size: 50px auto;
+  background-repeat: no-repeat;
 }
 
 .banner {
-  background-image: url("../images/bg-image.jpg");
-  background-size: auto;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .banner-content {
   padding-top: 200px;
   background-image: url("../images/two-leaves.svg");
-  background-size: 70px auto;
+  background-size: 100px auto;
   background-position: .75em;
   background-repeat: no-repeat;
   color: #fff;
