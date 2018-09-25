@@ -9,7 +9,6 @@ html {
   border-bottom: 3px solid #2d5a4d;
   background-image: url("../images/leaf-bg.svg");
   background-size: 64px;
-
 }
 
 .logo {
@@ -46,13 +45,14 @@ h1 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  border-bottom: solid 3px #145b1d;
 }
 
 .banner-content {
   padding-top: 150px;
   background-image: url("../images/two-leaves.svg");
   background-size: 100px auto;
-  background-position: 10.75px 180px;
+  background-position: 10px 180px;
   background-repeat: no-repeat;
   color: #fff;
 }
