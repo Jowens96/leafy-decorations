@@ -1,10 +1,11 @@
 html {
   font-family: Lora, serif;
+  background-image: linear-gradient(to bottom, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0));
 }
 
 .masthead {
   background-color: #588477;
-  border-top: 3px solid #2d5a4d;
+  border-top: 3px solid #145b1d;
   border-bottom: 3px solid #2d5a4d;
   background-image: url("../images/leaf-bg.svg");
   background-size: 64px;
@@ -43,16 +44,21 @@ h1 {
 .banner {
   background-image: url("../images/banner.jpg");
   background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
 .banner-content {
-  padding-top: 200px;
+  padding-top: 150px;
   background-image: url("../images/two-leaves.svg");
   background-size: 100px auto;
-  background-position: .75em;
+  background-position: 10.75px 180px;
   background-repeat: no-repeat;
   color: #fff;
+}
+
+p {
+  padding-top: 150px;
 }
 
 @media only screen and (min-width: 60em) {
